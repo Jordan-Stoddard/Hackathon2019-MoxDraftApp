@@ -1,0 +1,49 @@
+body {
+  background-image: linear-gradient(15deg, #010101, #232323);
+}
+
+.jumbotron {
+  background-color: #131313;
+  background-image: url("./nfl-footballs.jpg");
+  background-size: 330%;
+  background-blend-mode: overlay;
+  color: #ffffff;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.75);
+}
+
+.jumbotron h1 {
+  display: none;
+}
+
+.jumbotron h3 {
+  font-size: 2.4rem;
+  margin-bottom: 55px;
+}
+
+.jumbotron img {
+  width: 30vw;
+  max-width: 90%;
+  margin: 25px 0 0 0;
+}
+
+/* .jumbotron .taglines {
+  margin: 50px 0 0 0;
+} */
+
+.jumbotron p {
+  text-transform: none;
+  background-color: #5f5f5f00;
+  padding: 6px 20px 2.5px 20px;
+  margin: 20px auto 30px;
+  max-width: 75%;
+}
+
+/* Icons */
+.fas {
+  color: #999;
+  font-size: 50px;
+  margin-bottom: 20px;
+}

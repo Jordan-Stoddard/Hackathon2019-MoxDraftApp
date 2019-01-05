@@ -1,0 +1,33 @@
+.rooms {
+  background: rgb(3, 3, 3);
+  color: white;
+  padding: 20px 0;
+  box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  text-transform: uppercase;
+  color: #f4f4f4;
+}
+
+.rooms h3 {
+  text-align: center;
+}
+
+.rooms button {
+  /* border: 1px solid rgb(51, 98, 185);
+  background: rgb(74, 128, 209);
+  color: white; */
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.rooms button:hover {
+  /* background: rgb(51, 98, 185); */
+  transition: 0.2s;
+}

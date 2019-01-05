@@ -1,0 +1,65 @@
+.coming-soon {
+  color: white;
+  margin-top: 10px;
+}
+.card {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background: #232323
+}
+.card-header {
+  color: #ffffff;
+  border-bottom: 1px solid #a12d23;
+  font-size: 1.8rem;
+  font-style: unset;
+  border-radius: 10px 10px 0 0;
+  z-index: 3;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+.w-40 {
+  width: 48%;
+}
+
+.soon-text {
+  font-size: 1.4rem;
+  line-height: 2.0;
+  /* color: white; */
+  color: #aaa;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: left;
+  padding: 10px 40px;
+  text-transform: initial;
+  margin-bottom: 0;
+}
+.relative {
+  position: relative;
+}
+/* .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: rgba(115, 115, 115, 0.35); */
+  /* border-radius: 10px;
+
+  z-index: 2; */
+ */
+.text {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  border-radius: 5px;
+  font-size: 2.6rem;
+  color: #d73426;
+  background: black;
+  text-align: center;
+  transform: rotate(320deg);
+  -ms-transform: rotate(340deg);
+}
